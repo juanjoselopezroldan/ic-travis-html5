@@ -18,7 +18,7 @@ script: html5validator --root _build/
 
 deploy:
   provider: surge
-  project: ./ic-travis-html5/_build
+  project: /home/vagrant/surge/ic-travis-html5/
   domain: juanjose.surge.sh
   skip_cleanup: true
   
